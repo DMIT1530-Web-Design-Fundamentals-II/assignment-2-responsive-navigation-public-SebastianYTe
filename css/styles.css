@@ -1,0 +1,129 @@
+@font-face {
+    font-family: CooperHewitt;
+    src: url(css/CooperHewitt-Heavy.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    cursor: pointer;
+    position: relative;
+}
+
+nav ul li span {
+    margin-left: 5px;
+}
+
+.hero, .travel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.hero .text, .travel .text {
+    max-width: 500px;
+}
+
+.hero .text h1, .travel .text h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero .text span, .travel .text span {
+    color: #6b8e23; /* Adjust the color as needed */
+}
+
+.hero .text button, .travel .text button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hero .images, .travel .images {
+    display: flex;
+    gap: 10px;
+}
+
+.hero .images img, .travel .images img {
+    max-width: 300px;
+    height: auto;
+}
+
+.stuff {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.stuff h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.stuff .cards {
+    display: flex;
+    gap: 20px;
+}
+
+.stuff .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.stuff .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.stuff .card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.stuff .card p {
+    margin-bottom: 20px;
+}
+
+.stuff .card a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
